@@ -10,3 +10,6 @@ This URL is the AMQP connection string used to access the RabbitMQ broker:
 - `5672` — the default TCP port for AMQP
 
 By using the same URL in both the publisher and subscriber programs, both are connecting to the same RabbitMQ instance. This allows the publisher to send messages into exchanges/queues on the broker, and the subscriber to consume those messages from the same location.
+
+
+<img width="1280" alt="running_rabbitmq" src="https://github.com/user-attachments/assets/9f7a7888-223b-4dcc-a556-f98842f9785e" />
